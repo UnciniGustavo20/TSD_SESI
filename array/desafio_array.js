@@ -15,13 +15,13 @@ numero.push(9);
 numero.push(10);
   
 
-console.log(numeros [1]);
-console.log(numeros [2]);
-console.log(numeros [3]);
-console.log(numeros [4]);
-console.log(numeros [5]);
-console.log(numeros [6]);
-console.log(numeros [7]);
-console.log(numeros [8]);
-console.log(numeros [9]);
-console.log(numeros [10]);
+console.log("números: " + numeros [1]);
+console.log("números: " + numeros [2]);
+console.log("números: " + numeros [3]);
+console.log("números: " + numeros [4]);
+console.log("números: " + numeros [5]);
+console.log("números: " + numeros [6]);
+console.log("números: " + numeros [7]);
+console.log("números: " + numeros [8]);
+console.log("números: " + numeros [9]);
+console.log("números: " + numeros [10]);
