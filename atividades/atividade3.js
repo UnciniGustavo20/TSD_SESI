@@ -6,3 +6,8 @@ if(idade >= 18 && possuiconvite == true){
 } else{
     console.log("nao pode entrar!");
 }
+
+// operador ternario:
+
+let mensagem = idade >= 18 && possuiconvite == true ? "pode entrar!" : "nao pode entar! "
+console.log("operador ternario: " + mensagem)
