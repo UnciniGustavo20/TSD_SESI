@@ -1,8 +1,15 @@
-let hora = 15
-if(hora >= 0 && hora <= 11){
-    console.log("bom dia!");
-}else if(hora >= 12 && hora <= 17){
-    console.log("boa tarde!");
-}else{
-    console.log("boa noite!")
+let tempo = 15
+let nome = "Gustavo"
+function tempoAtual(tempo){
+   if(tempo>=12&tempo<=17){
+    console.log("boa tarde ", nome );
+   }
+   else if(tempo>=18&&tempo>=23){
+    console.log("boa noite", nome);
+   }
+   else{
+    console.log("bom dia!", nome);
+   } 
 }
+
+ tempoAtual(tempo, nome);
