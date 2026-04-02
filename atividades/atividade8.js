@@ -1,6 +1,9 @@
-let valor = 10 
-let taxa = 5.50
-let valorFinal = valor*taxa
+valor = 10
+taxa = 5.5 
 
-console.log(`valor inicial ${valor} com taxa ${taxa}
-valor final = R$${valorFinal}`);
+
+function cambio(valor, taxa){
+    return valor*taxa;
+}
+
+console.log(`valor:${valor} com taxa ${taxa}: R$${cambio, valor, taxa}`);
